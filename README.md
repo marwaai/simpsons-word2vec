@@ -20,19 +20,16 @@ This project demonstrates training **Word2Vec models (CBOW & Skip-gram)** on Sim
 git clone https://github.com/marwaMahmoud/simpsons-word2vec.git
 cd simpsons-word2vec
 pip install -r requirements.txt
-
-## Usage
-
-### 1️⃣ Preprocess the scripts
+```## Usage
 ```bash
 python preprocess.py
 
-## Train Word2Vec:
+طط## Train Word2Vec:
 
 python word2vectrain.py
 
 
-## Test embeddings:
+ططط## Test embeddings:
 
 from gensim.models import Word2Vec
 
