@@ -21,20 +21,9 @@ git clone https://github.com/marwaMahmoud/simpsons-word2vec.git
 cd simpsons-word2vec
 pip install -r requirements.txt
 ```
-## Usage
-```bash
-python preprocess.py
-```
+## text_pre_processing
+text_pre_processing.py
 ## Train Word2Vec
-```bash
-python word2vectrain.py
-```
+ word2vectrain.py.py
 ## Test embeddings
-```bash
-from gensim.models import Word2Vec
-
-model = Word2Vec.load("word2vec_cbow.model")
-print(model.wv.most_similar("child", topn=10))
-
-model = Word2Vec.load("word2vec.model")
-print(model.wv.most_similar("child", topn=10))
+test.py
