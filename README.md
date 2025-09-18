@@ -21,10 +21,10 @@ git clone https://github.com/marwaMahmoud/simpsons-word2vec.git
 cd simpsons-word2vec
 pip install -r requirements.txt
 
-
 ## Usage
 
-Preprocess the scripts:
+### 1️⃣ Preprocess the scripts
+```bash
 python preprocess.py
 
 ## Train Word2Vec:
